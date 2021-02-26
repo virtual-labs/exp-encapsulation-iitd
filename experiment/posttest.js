@@ -81,6 +81,7 @@
   const myQuestions = [
     {
       question: "Q1. Which of the following package stores all the standard java classes?",
+	    
       answers: {
         a: "lang",
         b: "java",
@@ -93,7 +94,7 @@
     {
       question: "Q2. For which purpose packages are used in Java?",
 	    
-      answers: {
+	answers: {
         a: "import statement",
         b: "main statement",
         c: "ry{} and catch{}",
@@ -116,7 +117,8 @@
 	
 	{
       question: "Q4. Which of the following is/are advantages of packages?",
-      answers: {
+      
+	answers: {
         a: "Packages avoid name clashes",
         b: "Classes, even though they are visible outside their package, can have fields visible to packages only",        
         c: "We can have hidden classes that are used by the packages, but not visible outside.",
