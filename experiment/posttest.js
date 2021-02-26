@@ -91,25 +91,27 @@
     },
 
     {
-      question: "Q2. What is the output of this program?",
+      question: "Q2. For which purpose packages are used in Java?",
+	    
+
 
       answers: {
-        a: "xello",
-        b: "hxello",
-        c: "Hello",
-        d: "Hxllo"
+        a: "import statement",
+        b: "main statement",
+        c: "ry{} and catch{}",
+        d: "package statement"
       },
       correctAnswer: "d"
     },
 
     {
-      question: "Q3. What will be the output of the following Java program?",
+      question: "Q3. A package is a collection of_____.",
       
       answers: {
-        a: "HelloGoodWorld",
-        b: "HellGoodoWorld", 
-        c: "Compilation error",
-        d: " Runtime error"        
+        a: "classes",
+        b: "interfaces", 
+        c: "editing tools",
+        d: "classes and interfaces"        
       },
       correctAnswer: "d"
     },
