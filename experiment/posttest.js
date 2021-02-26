@@ -107,8 +107,8 @@
       
       answers: {
         a: "HelloGoodWorld",
-        b: "HellGoodoWorld" 
-        c: "Compilation error" 
+        b: "HellGoodoWorld", 
+        c: "Compilation error",
         d: " Runtime error"        
       },
       correctAnswer: "d"
@@ -118,7 +118,7 @@
       question: "Q4. Which of the following is/are advantages of packages?",
       answers: {
         a: "Packages avoid name clashes",
-        b: "Classes, even though they are visible outside their package, can have fields visible to packages only"        
+        b: "Classes, even though they are visible outside their package, can have fields visible to packages only",        
         c: "We can have hidden classes that are used by the packages, but not visible outside.",
         d: " All of the above"
 
@@ -127,17 +127,13 @@
     },
 	
 	{
-      question: "Q5. Which of the following is/are true about packages in Java?",
-      1) Every class is part of some package. 
-      2) All classes in a file are part of the same package. 
-      3) If no package is specified, the classes in the file go into a special unnamed package 
-      4) If no package is specified, a new package is created with folder name of class and the class is put in this package.
+      question: "Q5. Which of the following is/are true about packages in Java? 1) Every class is part of some package. 2) All classes in a file are part of the same package. 3) If no package is specified, the classes in the file go into a special unnamed package  4) If no package is specified, a new package is created with folder name of class and the class is put in this package.",
 
 
       answers: {
         a: " Only 1, 2 and 3",
         b: "Only 1, 2 and 4",
-        c: " Only 4"
+        c: " Only 4",
         d: "Only 1 and 3"
       },
       correctAnswer: "a"
