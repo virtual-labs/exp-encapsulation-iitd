@@ -97,7 +97,7 @@
 	answers: {
         a: "import statement",
         b: "main statement",
-        c: "ry{} and catch{}",
+        c: "try{} and catch{}",
         d: "package statement"
       },
       correctAnswer: "d"
