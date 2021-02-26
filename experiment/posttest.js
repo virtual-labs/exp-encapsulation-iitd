@@ -93,8 +93,6 @@
     {
       question: "Q2. For which purpose packages are used in Java?",
 	    
-
-
       answers: {
         a: "import statement",
         b: "main statement",
