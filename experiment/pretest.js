@@ -114,9 +114,9 @@
 	{
       question: "Q4. Which of the following is correct way of importing an entire package ‘pkg’?",
       answers: {
-        a: " import pkg.",
+        a: " import pkg-",
         b: "Import pkg",
-        c: " import pkg.",
+        c: " import pkg*",
         d: "Import pkge"
       },
       correctAnswer: "c"
