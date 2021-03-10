@@ -1,8 +1,11 @@
-## Java Package
+### Java Package
+
 A **java package** is a group of similar types of classes, interfaces and sub-packages.
 Package in java can be categorized in two form, built-in package and user-defined package.
 There are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc.
-#### Simple example of java package
+
+### Simple example of java package
+
 The **package keyword** is used to create a package in java.
 
 ```sh
@@ -16,14 +19,15 @@ The **package keyword** is used to create a package in java.
 
 ```
 
-#### How to compile java package
+### How to compile java package
+
 If you are not using any IDE, you need to follow the **syntax** given below:
 
 ```sh
 	javac -d directory javafilename  
 ```
 
-For **example**
+### example
 
 ```sh
 javac -d . Simple.java 
@@ -37,13 +41,14 @@ How to run java package program
 Output:Welcome to package
 ```
 
-#### How to access package from another package?
+### How to access package from another package?
+
 There are three ways to access the package from outside the package.
 1.	import package.*;
 2.	import package.classname;
 3.	fully qualified name.
 
-#### 1) Using packagename.*
+### 1) Using packagename.*
 Example of package that import the packagename.*
 
 ```sh
@@ -73,7 +78,7 @@ Example of package that import the packagename.*
 Output:Hello
 ```
 
-#### 2) Using packagename.classname
+### 2) Using packagename.classname
 
 Example of package by import package.classname
 
@@ -107,7 +112,7 @@ Output:Hello
 ```
 
 
-#### 3) Using fully qualified name
+### 3) Using fully qualified name
 
  Example of package by import fully qualified name
 
