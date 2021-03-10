@@ -125,10 +125,10 @@
 	{
       question: "Q5.Which of the following is incorrect statement about packages?",
       answers: {
-        a: " Package defines a namespace in which classes are stored.",
-        b: "A package can contain other package within it.",
-        c: "Java uses file system directories to store packages.",
-        d: " A package can be renamed without renaming the directory in which the classes are stored."
+        a: " Package defines a namespace in which classes are stored",
+        b: "A package can contain other package within it",
+        c: "Java uses file system directories to store packages",
+        d: " A package can be renamed without renaming the directory in which the classes are stored"
       },
       correctAnswer: "d"
     },
