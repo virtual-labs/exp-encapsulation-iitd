@@ -24,7 +24,7 @@ The **package keyword** is used to create a package in java.
 If you are not using any IDE, you need to follow the **syntax** given below:
 
 ```sh
-	javac -d directory javafilename  
+javac -d directory javafilename  
 ```
 
 ### Example
@@ -44,9 +44,9 @@ Output:Welcome to package
 ### How to access package from another package?
 
 There are three ways to access the package from outside the package.
-1.	import package.*;
-2.	import package.classname;
-3.	fully qualified name.
+-	import package.*;
+-	import package.classname;
+-	fully qualified name.
 
 ### 1) Using packagename.*
 Example of package that import the packagename.*
