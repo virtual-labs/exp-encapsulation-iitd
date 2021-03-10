@@ -119,9 +119,9 @@ Output:Hello
 ```sh
  	//save by A.java  
  	  
- 	package pack;  
+package pack;  
 public class A{  
-  public void msg(){System.out.println("Hello");}  
+public void msg(){System.out.println("Hello");}  
 }  
 
 ```
