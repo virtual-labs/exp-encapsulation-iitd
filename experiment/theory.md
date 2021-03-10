@@ -27,7 +27,7 @@ If you are not using any IDE, you need to follow the **syntax** given below:
 	javac -d directory javafilename  
 ```
 
-### example
+### Example
 
 ```sh
 javac -d . Simple.java 
