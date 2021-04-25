@@ -1,1 +1,44 @@
-[{"question":"Q1. Which of these keywords is used to define packages in Java?","answers":{"a":"pkg","b":"package"},"correctAnswer":"b"},{"question":"Q2. Which of these is a mechanism for naming and visibility control of a class and its content?","answers":{"a":"Object","b":"Packages","c":"Interfaces","d":"None of these"},"correctAnswer":"b"},{"question":"Q3.  Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?","answers":{"a":"Public","b":"Protected","c":"Private","d":"No Modifier"},"correctAnswer":"a"},{"question":"Q4. Which of the following is correct way of importing an entire package ‘pkg’?","answers":{"a":" import pkg-","b":"Import pkg","c":" import pkg*","d":"Import pkge"},"correctAnswer":"c"},{"question":"Q5.Which of the following is incorrect statement about packages?","answers":{"a":" Package defines a namespace in which classes are stored","b":"A package can contain other package within it","c":"Java uses file system directories to store packages","d":" A package can be renamed without renaming the directory in which the classes are stored"},"correctAnswer":"d"}]
+[{
+	"question": "Q1. Which of these keywords is used to define packages in Java?",
+	"answers": {
+		"a": "pkg",
+		"b": "package"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q2. Which of these is a mechanism for naming and visibility control of a class and its content?",
+	"answers": {
+		"a": "Object",
+		"b": "Packages",
+		"c": "Interfaces",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3.  Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?",
+	"answers": {
+		"a": "Public",
+		"b": "Protected",
+		"c": "Private",
+		"d": "No Modifier"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q4. Which of the following is correct way of importing an entire package ‘pkg’?",
+	"answers": {
+		"a": " import pkg-",
+		"b": "Import pkg",
+		"c": " import pkg*",
+		"d": "Import pkge"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q5.Which of the following is incorrect statement about packages?",
+	"answers": {
+		"a": " Package defines a namespace in which classes are stored",
+		"b": "A package can contain other package within it",
+		"c": "Java uses file system directories to store packages",
+		"d": " A package can be renamed without renaming the directory in which the classes are stored"
+	},
+	"correctAnswer": "d"
+}]
