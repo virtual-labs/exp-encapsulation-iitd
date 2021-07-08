@@ -4,6 +4,8 @@
 - Package in java can be categorized in two form, built-in package and user-defined package.
 - There are many built-in packages such as java, lang, awt, javax, swing, net, io, util, sql etc.
 
+---
+
 ### Advantage of Java Package
 - Java package is used to categorize the classes and interfaces so that they can be easily maintained.
 
@@ -13,6 +15,7 @@
 
 ![package](https://user-images.githubusercontent.com/71967438/124964287-7a564380-e03e-11eb-81f6-425029039b4f.jpg)
 
+---
 
 ### Simple example of java package
 
@@ -29,6 +32,7 @@ System.out.println("Welcome to package");
 }  
 }  
 ```
+---
 
 ### How to compile java package
 
@@ -46,6 +50,8 @@ javac -d . Simple.java
 
 The -d switch specifies the destination where to put the generated class file. You can use any directory name like /home (in case of Linux), d:/abc (in case of windows) etc. If you want to keep the package within the same directory, you can use . (dot).The -d is a switch that tells the compiler where to put the class file i.e. it represents destination. The (.) represents the current folder.
 
+---
+
 ### How to run java package program
 
 ```
@@ -62,6 +68,8 @@ java mypack.Simple
 ```
 Welcome to package
 ```
+
+---
 
 ### How to access package from another package?
 
