@@ -68,7 +68,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -103,11 +103,11 @@ function FunctionBack1(){
 }
 
 function createpackage(){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>package <input type='text' id='pname' style='width:120px;height:24px;'> ;</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>package <input type='text' id='pname' style='width:120px;height:24px;'>;<br>// A package is a collection of similar types of classes, interfaces and sub-packages.<br></p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingpackfields(pname){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>package <span type='text' id='pname'>"+pname+"</span> ;<br>public class <input type='text' id='cname' style='width:120px;height:24px;'> {<br><br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>package <span type='text' id='pname'>"+pname+"</span> ;<br>public class <input type='text' id='cname' style='width:120px;height:24px;'> {<br> //save by Example A.java  <br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2' >Next</button></div>";
 }
 
 function extendclass(pname,cname){
@@ -119,11 +119,11 @@ function packagecreated(pname,cname,func1,mesg1){
 }
 
 function importpackage(pname,cname,func1,mesg1){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px;'>import <span id='pname'>"+pname+"</span>.* ;<br>public class <input type='text' id='classn' style='width:120px;height:24px;'> {<br><br>}<br><span id='cname' style='display:none;'>"+cname+"</span><span id='func1' style='display:none;'>"+func1+"</span><span id='mesg1' style='display:none;'>"+mesg1+"</span></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5'>Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px;'>import <span id='pname'>"+pname+"</span>.* ;<br>public class <input type='text' id='classn' style='width:120px;height:24px;'> {<br>// Import above class in below program using import packageName.className. <br>}<br><span id='cname' style='display:none;'>"+cname+"</span><span id='func1' style='display:none;'>"+func1+"</span><span id='mesg1' style='display:none;'>"+mesg1+"</span></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5'>Next</button></div>";
 }
 
 function makeobject(pname,classn,cname,func1,mesg1){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>import <span id='pname'>"+pname+"</span>.* ;<br>public class <span id='classn'>"+classn+"</span> {<br>public static void main(String args[])<br>{<br><span id='cname'>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span id='cname'>"+cname+"</span> ( ) ;<br>}<br>}<br><span id='func1' style='display:none;'>"+func1+"</span><span id='mesg1' style='display:none;'>"+mesg1+"</span></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click6'>Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>import <span id='pname'>"+pname+"</span>.* ;<br>public class <span id='classn'>"+classn+"</span> {<br>public static void main(String args[])<br>{<br><span id='cname'>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span id='cname'>"+cname+"</span> ( ) ;<br>// Creating object<br>}<br>}<br><span id='func1' style='display:none;'>"+func1+"</span><span id='mesg1' style='display:none;'>"+mesg1+"</span></p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click6'>Next</button></div>";
 }
 
 function printmessage(pname,classn,cname,obj,func1,mesg1){
